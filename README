@@ -1,0 +1,9 @@
+#UART bit banging in ATmega328p
+Assuming TX - D1, RX - D0
+
+Using Timer1 controller and gpio functionality of ATmega328p implemented UART protocol.
+
+uart_init() - initiate timer and gpios.
+uart_readByte() - reads a byte of data.
+uart_writeByte(uint8_t) - writes a byte of data.
+uart_write(char *) - writes bytes of data.
